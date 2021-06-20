@@ -31,6 +31,15 @@ body{
     width: auto;
     height: 80px;
    }
+.Nome-site{
+    font-size: 54px;
+    color:rgb(220, 20, 153);
+    font-weight: bold;
+    text-shadow: 8px 6px 5px rgb(59, 4, 52);
+    margin-left: 80px;
+
+    
+}
 
 .linha:hover{
     background-color: #999;
@@ -100,5 +109,10 @@ body{
 .botao-controle{
     display: flex;
     flex-direction: row;
+
+}
+#foto{
+  
+    max-height:400px;
 
 }
