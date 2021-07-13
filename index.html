@@ -12,18 +12,37 @@
 </head>
 
 <header>
-    <div class="container">
+    <div class="container" onclick="fecha()">
         <div class="logo"></div>
         <div class="Nome-site">Rosana's Arts</div>
         <div class="menu">
             <ul>
                 <div class="linha"><li><a href=""> HOME</a></li></div>
                 <div class="linha"><li><a href="">PRODUTOS</a></li></div>
-                 <div class="linha"><li><a href="">CONTATO</a></li></div>
+                 <div class="linha" onclick="contato()"><li><a >CONTATO</a></li></div>
             </ul>
         </div>
     </div>
 </header>
+<div class="container-janelaModal-contato">
+    <div id="janelaModal-contato">
+   
+    <span class="fechar" onclick="fechaContato()">X</span>
+    <div class="contato-whats">
+    <div class="Alinha-contato-Rosanas">
+        <span>Rosana's Arts</span>
+    </div>    
+    
+        
+         <span>(13)98825-1960</span>
+        <img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" class="Whats">
+       
+    </div>
+    <div class="Alinha-contato-Rosanas">
+        <h2>Aceitamos encomendas<br/> entre em contato conosco</h2>
+    </div>    
+</div>
+</div>
 
   <div class="versiculo">
        <span>Até aqui nos ajudou o SENHOR.” (1 Samuel 7:12 RA)</span>
@@ -53,42 +72,42 @@
         <div class="container2">
             <div class="produtos">
                 <div class="foto-heigth-produto">   
-                    <img class="foto-produto" src="image/foto12.jpeg">
+                    <img class="foto-produto" src="image/foto12.jpeg" onclick='clique("image/foto12.jpeg")'>
             </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto"> 
-                    <img class="foto-produto" src="image/foto13.jpeg">
+                    <img class="foto-produto" src="image/foto13.jpeg" onclick='clique("image/foto13.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto" src="image/foto14.jpeg">
+                    <img class="foto-produto" src="image/foto14.jpeg" onclick='clique("image/foto14.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto" src="image/foto15.jpeg">
+                    <img class="foto-produto" src="image/foto15.jpeg" onclick='clique("image/foto15.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto2" src="image/foto1.jpeg">
+                    <img class="foto-produto2" src="image/foto1.jpeg" onclick='clique3("image/foto1.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto3" src="image/foto2.jpeg">
+                    <img class="foto-produto3" src="image/foto2.jpeg" onclick='clique2("image/foto2.jpeg")'> 
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
@@ -96,51 +115,56 @@
         </div>
         
     </section>
+    <div id="janelaModal" onclick=fecha()>
+        <span id="fecha-janelaModal">X</span>
+        <img id="imagem-janelaModal" onclick=fecha()>
+
+    </div>
 
     <section>
-        <div class= destaques>
+        <div class= "destaques">
             <span>Máscaras que são a sua cara</span>
         </div>
             <div class="separador"></div>
         <div class="container2">
             <div class="produtos">
                 <div class="foto-heigth-produto">   
-                    <img class="foto-produto3" src="image/foto4.jpeg">
+                    <img class="foto-produto3" src="image/foto4.jpeg" onclick='clique3("image/foto4.jpeg")'>
             </div>
                 <span class="descricao-produto">Máscara para madrinhas de casamento</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto"> 
-                    <img class="foto-produto3" src="image/foto16.jpeg">
+                    <img class="foto-produto3" src="image/foto16.jpeg" onclick='clique3("image/foto16.jpeg")'>
                 </div>
                 <span class="descricao-produto">Máscara noiva para casamento</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto3" src="image/foto5.jpeg">
+                    <img class="foto-produto3" src="image/foto5.jpeg" onclick='clique3("image/foto5.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto3" src="image/foto7.jpeg">
+                    <img class="foto-produto3" src="image/foto7.jpeg" onclick='clique3("image/foto7.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto3" src="image/foto9.jpeg">
+                    <img class="foto-produto3" src="image/foto9.jpeg" onclick='clique3("image/foto9.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto" src="image/foto14.jpeg">
+                    <img class="foto-produto" src="image/foto14.jpeg" onclick='clique("image/foto14.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
@@ -156,42 +180,42 @@
         <div class="container2">
             <div class="produtos">
                 <div class="foto-heigth-produto">   
-                    <img class="foto-produto3" src="image/foto18.jpeg">
+                    <img class="foto-produto3" src="image/foto18.jpeg" onclick='clique3("image/foto18.jpeg")'>
             </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto"> 
-                    <img class="foto-produto3" src="image/foto21.jpeg">
+                    <img class="foto-produto3" src="image/foto21.jpeg" onclick='clique3("image/foto21.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto3" src="image/foto17.jpeg">
+                    <img class="foto-produto3" src="image/foto17.jpeg" onclick='clique3("image/foto17.jpeg")'> 
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto3" src="image/foto19.jpeg">
+                    <img class="foto-produto3" src="image/foto19.jpeg" onclick='clique3("image/foto19.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">
-                    <img class="foto-produto3" src="image/foto20.jpeg">
+                    <img class="foto-produto3" src="image/foto20.jpeg" onclick='clique3("image/foto20.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
             </div>
             <div class="produtos">
                 <div class="foto-heigth-produto">    
-                    <img class="foto-produto" src="image/foto22.jpeg">
+                    <img class="foto-produto" src="image/foto22.jpeg" onclick='clique("image/foto22.jpeg")'>
                 </div>
                 <span class="descricao-produto">pote decorado com biscuit e transparência frontal</span>
                 <span class="preco-produto">R$ 99,99</span>
@@ -203,8 +227,14 @@
     <script type="text/javascript" src="script.js"></script>
 </body>
 <footer>
-<span>Rosana's Arts</span>
-
+<div>
+    <span>Rosana's Arts</span>
+</div>    
+<div class="contato-whats">
+     <span>(13)98825-1960</span>
+    <img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" class="Whats">
+   
+</div>
 </footer>
 
 

@@ -67,6 +67,45 @@ body{
    margin-left: 10px;
    font-size: 20px;
 }
+.container-janelaModal-contato{
+    display: flex;
+   
+    justify-content: center;
+    align-content: center;
+}
+#janelaModal-contato{
+    display: none;
+    position:fixed;
+    z-index: 1;
+    padding-top: 10px;
+   
+    width:50%;
+    height: 30%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px #222;
+}
+#janelaModal-contato span{
+    font-family: cursive;
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 10px 10px 10px rgb(220, 20, 153);
+}
+.Alinha-contato-Rosanas{
+    display: flex;
+    justify-content: center;
+}
+.Alinha-contato-Rosanas h2{
+    font-size: 30px;
+    color:#fff;
+}
+.fechar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
 
 .linha{
     display: flex;
@@ -99,6 +138,8 @@ body{
     position: relative;
     left:0px;
 }
+
+
 .borda{
     display: flex;
     align-items: center;
@@ -166,16 +207,30 @@ section{
 .foto-produto{
 width: 50%;
 box-shadow: 0px 0px 10px #b0b0b0;
-
+cursor: pointer;
+}
+.foto-produto:hover{
+    width: 50.4%;
+    transition: 0.5s;
+}
+.foto-produto2:hover{
+    width: 71%;
+    transition: 0.5s;
+}
+.foto-produto3:hover{
+    width: 81%;
+    transition: 0.5s;
 }
 .foto-produto2{
     width: 70%;
     box-shadow: 0px 0px 10px #b0b0b0;
+    cursor: pointer;
     
     }
-    .foto-produto3{
+.foto-produto3{
         width: 80%;
         box-shadow: 0px 0px 10px #b0b0b0;
+        cursor: pointer;
         
         }
 .foto-heigth-produto{
@@ -240,11 +295,17 @@ box-shadow: 0px 0px 10px #b0b0b0;
     margin-top:52px;
 }
 footer{
+    width: 100%;
     height: 200px;
     background-color:rgba(7, 10, 53, 0.698);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+}
+
+footer div{
+    display: block;
 }
 footer span{
     font-family: cursive;
@@ -252,6 +313,64 @@ footer span{
     color:#fff;
     text-shadow: 10px 10px 10px rgb(220, 20, 153);
 }
+
+.Whats{
+    
+    margin: 20px;
+     width: 4%;
+ }
+ .contato-whats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+ }
+ .contato-whats span{
+    font-family: cursive;
+    font-size: 20px;
+    color:#fff;
+ }
+
+/* FORMATAÇÃO DA JANELA MODAL - INICIO */
+#janelaModal{
+    display: none;
+    position:fixed;
+    z-index: 1;
+    padding-top: 10px;
+    right: 0px;
+ 
+    top:0px;
+    
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    overflow: auto;
+    cursor: pointer;
+}
+#imagem-janelaModal{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    overflow: auto;
+
+}
+
+#fecha-janelaModal{
+    position: absolute;
+    top: 9%;
+    right: 2%;
+    
+    color: #FFF;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* FORMATAÇÃO DA JANELA MODAL - FIM */
+
+
 @media only screen and (min-width : 200px) {
    Body{
     background-color: #fff;
