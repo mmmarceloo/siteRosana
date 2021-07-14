@@ -98,7 +98,7 @@ body{
     justify-content: center;
 }
 .Alinha-contato-Rosanas h2{
-    font-size: 30px;
+    font-size: 23px;
     color:#fff;
 }
 .fechar{
@@ -371,8 +371,79 @@ footer span{
 /* FORMATAÇÃO DA JANELA MODAL - FIM */
 
 
-@media only screen and (min-width : 200px) {
-   Body{
-    background-color: #fff;
-   }
+@media only screen and (max-width : 950px) {
+    .Nome-site {
+        font-size: 26px;
+       
+    }
+ }
+ @media only screen and (max-width : 770px) {
+    .Nome-site {
+        font-size: 25px;
+       
+    }
+    .destaques span {
+       
+        font-size: 24px;
+       
+    }
+ }
+ @media only screen and (max-width : 500px) {
+    .Nome-site {
+        font-size: 25px;
+       
+    }
+    .destaques span {
+       
+        font-size: 20px;
+       
+    }
+    footer span {
+        font-family: cursive;
+        font-size: 45px;
+        color: #fff;
+        text-shadow: 10px 10px 10px rgb(220 20 153);
+    }
+    .container {
+        background-color: #aaa;
+        display: flex;
+        height: 80px;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 3px 3px 10px #888;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    #janelaModal-contato {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 10px;
+        width: 95%;
+        height: 41%;
+        background-color: rgba(0,0,0,0.9);
+        overflow: auto;
+        cursor: pointer;
+        border-radius: 15px;
+        box-shadow: 0px 0px 30px #222;
+    }
+    #janelaModal-contato span {
+        
+        font-size: 17px;
+       
+    }
+    .container2 {
+        margin-top: 20px;
+        display: flex;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+ }
+ @media only screen and (max-width : 350px) {
+
+    .menu ul {
+       
+        font-size: 14px;
+    }
  }
